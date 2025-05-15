@@ -9,8 +9,6 @@ Timer timer;
 int Temp;
 unsigned long timer1 = 0;
 unsigned long timer2 = 0;
-bool relayOn = false;     // Состояние реле
-bool startTimer = false;  // Флаг запуска таймера
 bool quartzOn = true;
 bool stateHeater1 = false;
 bool stateHeater2 = false;
