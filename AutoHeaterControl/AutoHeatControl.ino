@@ -7,8 +7,6 @@ Timer timer;
 #define heater_1 7  // Нагреватель №1
 #define heater_2 8  // Нагреватель №2
 int Temp;
-int flag = 1;
-unsigned long cur_ms = 0;
 unsigned long timer1 = 0;
 unsigned long timer2 = 0;
 bool relayOn = false;     // Состояние реле
